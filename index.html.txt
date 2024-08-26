@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Shannon Broden - Healthy Meal Planning</title>
+    <style>
+      .practice, .practice td, .practice th {
+       border: 1px dashed #00f;
+      border-collapse: collapse;
+       }
+    .remove{
+      display:none;
+      }
+      ul {
+  list-style: number;
+}
+      ol {
+  list-style: circle;
+}
+    </style>
+    </head>
+    <body>
+    <table class="practice">
+  <thead>
+    <th>Breakfast</th>
+    <th>Lunch</th>
+    <th>Dinner</th>
+  </thead>
+  <tbody>   
+  <tr>
+    <td>Cereal</td>
+    <td>Low Sodium Chips</td>
+    <td>Potatoes</td>
+  </tr>
+  <tr>
+    <td>Clementine</td>
+    <td>Apple</td>
+    <td>Tomato slices</td>
+  </tr>
+  <tr>
+    <td>Greek yogurt</td>
+    <td>Mozerella cheese stick</td>
+    <td>Cottage cheese</td>
+  </tr>
+ <tr>
+    <td>Egg white</td>
+    <td rowspan = "2"><ol>
+      <!-- Ordered List -->
+  <li>Salad</li>
+  <li>Sandwich</li>
+  <li>Pasta</li>
+  <li>Soup</li>
+  <li>Stuffed vegetable</li>
+</ol>
+    </td>
+    <td rowspan ="2"><ul>
+<!-- Nested Unordered List -->
+<li>Seafood</li>
+<li>Poultry
+  <ul>
+    <li>Chicken</li>
+    <li>Turkey</li>
+  </ul>
+</li>
+<li>Beef</li>
+</ul>
+    </td>
+  </tr>
+   <tr>
+    <td>Turkey sausage</td>
+    <td class = "remove">Row 5 - Cell 2</td>
+    <td class = "remove">Row 5 - Cell 3</td>
+  </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+    <td colspan = "3">All info provided by Shannon Broden.</td>
+    </tr>
+</tfoot>
+</table>      
+</body>
+</html>
